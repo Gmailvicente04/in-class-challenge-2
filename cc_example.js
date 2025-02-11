@@ -39,3 +39,20 @@ function calculateTotalrevenue(sales) {
 }
 
 console.log(calculateTotalrevenue(sales));
+
+//Task 4
+
+let employees = {
+name: "John Doe",
+salary: 50000,
+position: "Software Engineer",
+
+
+};
+
+console.log(employees);
+
+function updateSalary(employee, percentageIncrease) {
+    employee.salary = (employee.salary * (1 + percentageIncrease));
+};
+console.log(updateSalary(employees, 0.1));
